@@ -31,7 +31,7 @@ function sendOTPWithPHPMailer($to, $otp, $name) {
         $mail->Port       = 587;
         $mail->SMTPAuth   = true;
         $mail->Username   = 'pavanmalith3@gmail.com';   // Your SMTP username
-        $mail->Password   = 'qsqa drxj xflr ergx';      // Your SMTP password
+        $mail->Password   = '';      // Your SMTP password
         $mail->SMTPSecure = \PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_STARTTLS;
 
         // Message settings
