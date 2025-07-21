@@ -20,7 +20,7 @@ function sendApplicationStatusEmail($student_email, $student_name, $startup_name
         $mail->Port       = 587;
         $mail->SMTPAuth   = true;
         $mail->Username   = 'pavanmalith3@gmail.com';
-        $mail->Password   = 'qsqa drxj xflr ergx';
+        $mail->Password   = '';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 
         // Email settings
